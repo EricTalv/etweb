@@ -1,3 +1,4 @@
 ---
 layout: ProjectsList
+title: 'Projects '
 ---

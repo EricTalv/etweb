@@ -1,4 +1,4 @@
 ---
 layout: About
-title: 'about'
+title: 'About'
 ---
