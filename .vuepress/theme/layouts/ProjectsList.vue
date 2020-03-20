@@ -21,7 +21,7 @@
 			<div class="col-sm-12 d-flex flex-wrap justify-content-center">
 
 				<div v-for="item in projectsList" class="li" >
-					<div style="background-image: url(https://i.pinimg.com/originals/4f/c4/92/4fc49228a940e41435b3796c18fc2346.jpg) ">
+					<div :style="{ 'background-image': `url(${item.frontmatter.image})`}">
 						<a :href="item.path" class="li">
 							<span>{{ item.title }}</span>						
 						</a>
