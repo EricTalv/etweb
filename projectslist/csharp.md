@@ -1,24 +1,15 @@
 ---
 title: 'C#'
 layout: Project
+github: 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#blockquotes'
 pagetitle: 'C# - Project Pack'
 image: 'https://www.pinclipart.com/picdir/middle/113-1139107_report-abuse-pusheen-cat-nutella-clipart.png'
 ---
 
-This is just a test paragraph! 
+---
 
+[Project Github](https://www.google.com)
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+This program includes all of my C# projects that I have 
+created over the years of studying it. 
 
-Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-======
-
-Alt-H2
-------

@@ -391,11 +391,13 @@ label.margin-toggle:not(.sidenote-number) {
     blockquote {
         margin-left: 1.5em;
         margin-right: 0em; 
+
     }
 
     blockquote p,
     blockquote footer {
         width: 100%; 
+      
     }
     
     label.margin-toggle:not(.sidenote-number) {
