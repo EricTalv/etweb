@@ -1,4 +1,4 @@
 ---
-layout: Index
+layout: index
 title: 'Eric Talviste'
 ---

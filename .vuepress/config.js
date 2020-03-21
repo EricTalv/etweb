@@ -1,6 +1,5 @@
 module.exports = {
   title: 'ET',
-  plugins: ['@vuepress/blog'],
   	head: [
 		['link',
 		 { 

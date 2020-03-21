@@ -2,7 +2,7 @@
   "name": "etweb7",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "layouts/Index.vue",
   "dependencies": {
     "bootstrap": "^4.4.1"
   },
