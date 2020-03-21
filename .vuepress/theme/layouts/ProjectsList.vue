@@ -56,6 +56,7 @@
 
 <style scoped>
 
+
 .gitHub {
 	color: gray;
 }
@@ -98,7 +99,6 @@ div.li, .li div {
 }
 
 
-
 a.li  {
 	position: absolute;
 	left: 0;
@@ -113,7 +113,6 @@ a.li  {
 	position: absolute;
 	margin: 10px;
 	max-width: 92%;
-	font-weight: 100;
 	font-size: 1.6rem;
 	background-color: #000;
 	padding: 0.2rem 0.4rem;

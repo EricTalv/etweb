@@ -1,5 +1,6 @@
 ---
-title: 'Portfolio Page'
+title: 'Portfolio'
+pagetitle: 'ET Portfolio Page'
 layout: Project
 image:  'https://i.pinimg.com/originals/4f/c4/92/4fc49228a940e41435b3796c18fc2346.jpg'
 ---

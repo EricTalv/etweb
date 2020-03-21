@@ -24,7 +24,7 @@
 
 </template>
 
-<script>
+<script scoped>
   import LogoHorizontal from '../../components/LogoHorizontal.vue'
 
   export default {
@@ -34,7 +34,7 @@
   }
 </script>
 
-<style>
+<style scoped>
 
 html, body {
   height: 100%;

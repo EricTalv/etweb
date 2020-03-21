@@ -121,6 +121,7 @@
                       <th>Cmder</th>
                       <th>GitHub</th>
                       <th>GitLab</th>
+                      <th>Xampp</th>
                     </tr>
                   </thead>
                 </table>
@@ -163,7 +164,7 @@
 
 </script>
 
-<style scoped type="text/css">
+<style scoped>
 
 .customBig {
   font-size: 3rem;

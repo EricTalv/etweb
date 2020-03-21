@@ -3,7 +3,7 @@ module.exports = {
   	head: [
 		['link',
 		 { 
-			rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap',
+			rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap',
 		 }	
 		]
 	],
