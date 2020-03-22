@@ -12,7 +12,6 @@
             <div class="card">
               <div class="card-body">
 
-
                 <span class="customBig" style="color: red; text-shadow: 2px 2px black"><u>Hi!</u></span> My names Eric, a 20 year old Junior Software developer based in 
                 Tallinn Estonia making my first steps into the bigger development world.<br/><br/>
 
