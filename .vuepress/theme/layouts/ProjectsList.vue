@@ -3,8 +3,7 @@
 		<div class="row text-center">
 			<div class="mx-auto">
 				<a href="/" type="button" class="customBackButton">Home</a>
-				<a href="/about" type="button" class="customBackButton specialBtn">About</a>
-				<a href="/contact" type="button" class="customBackButton">Contact</a>       
+				<a href="/about" type="button" class="customBackButton">About</a>
 			</div>
 		</div>
 
@@ -70,15 +69,13 @@
 	color: black !important;
 	text-decoration: none !important;
 	transition: all .5s;
-}
 
-.specialBtn {
-	border-left: 1px solid black;
+		border-left: 1px solid black;
 	border-right: 1px solid black;
 	padding-left: 15px;
 	padding-right: 15px;
-
 }
+
 
 .customBackButton:hover {
 	color: red !important;

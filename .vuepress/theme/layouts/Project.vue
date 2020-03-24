@@ -3,8 +3,7 @@
 		<div>
 			<a href="/projectslist" type="button" class="customBackButton">Projects List</a>
 			<a href="/" type="button" class="customBackButton">Home</a>
-			<a href="/about" type="button" class="customBackButton">About</a>
-			<a href="/contact" type="button" class="customBackButton ">Contact</a>       
+			<a href="/about" type="button" class="customBackButton">About</a>  
 		</div>
 		<h1 style="font-size: 3rem;">
 			{{ $frontmatter.pagetitle }}
@@ -12,7 +11,7 @@
 		<p>
 			<a v-if="$frontmatter.github" :href="$frontmatter.github" target="_blank">Github</a>
 		</p>
-		<section>
+		<section class="forImage">
 			<Content />
 		</section>
 	</article>
@@ -244,8 +243,13 @@ a:link::-moz-selection {
 
 /* Sidenotes, margin notes, figures, captions */
 img {
-	max-width: 100%; 
+	max-width: 100% !important; 
 }
+
+.forImage > img {
+	max-width: 100% !important;	
+}
+
 
 .sidenote,
 .marginnote {

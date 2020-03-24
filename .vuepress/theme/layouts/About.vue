@@ -27,8 +27,10 @@
                 I've grown a <u>big liking</u> toward software <i>UX</i> and <i>Design</i>, thus every day I try to 
                 broaden my vocabulary on different design development methods to start crafting 
                 much cooler user-experiences more <b>efficiently</b> and <b>faster</b>.<br/><br/>
-
-                <a href="#">Link to my CV!</a>
+            
+                Link to my CV's: 
+                <a href="./EricTalvisteCV_EN.pdf" download>English</a> | 
+                <a href="./EricTalvisteCV_EE.pdf" download>Estonian</a>
 
               </div>
             </div>
@@ -38,7 +40,6 @@
           <div class="col-md-12 text-center mt-3">
             <a href="/" type="button" class="customBackButton">Home</a>
             <a href="/projectslist" type="button" class="customBackButton specialBtn">Projects</a>
-            <a href="/contact" type="button" class="customBackButton">Contact</a>
           </div>
         </div>
       </div>
@@ -120,7 +121,7 @@
                       <th>Cmder</th>
                       <th>GitHub</th>
                       <th>GitLab</th>
-                      <th>Xampp</th>
+                      
                     </tr>
                   </thead>
                 </table>
@@ -165,6 +166,14 @@
 
 <style scoped>
 
+.table {
+  word-break: break-all;
+}
+
+div {
+  width: none !important;
+}
+
 .customBig {
   font-size: 3rem;
   text-decoration: bold;
@@ -178,15 +187,12 @@
   font-size: 20px;
   color: black !important;
   text-decoration: none !important;
-  transition: all .5s;
-}
+  transition: all .5s; 
 
-.specialBtn {
   border-left: 1px solid black;
   border-right: 1px solid black;
   padding-left: 15px;
   padding-right: 15px;
-  
 }
 
 .customBackButton:hover {

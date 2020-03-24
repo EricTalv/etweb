@@ -4,22 +4,26 @@
     <div class="row">
      <div class="col-md-6 centerOffset">
       <LogoHorizontal />
+      <div>
+        Contact me at erictalviste@gmail.com
+      </div>
     </div>
     <div class="col-md-6">
       <div class="text-center mt-c">
 
-         <a href="/about" type="button" class="m-3 customButton">
-           About
-         </a> 
-         <a href="/projectslist" type="button" class="m-3 customButton">
-          Projects            
-        </a> 
-        <a href="/contact" type="button" class="m-3 customButton">
-          Contact
-        </a>
-        </div>
+       <a href="/about" type="button" class="m-3 customButton">
+         About
+       </a> 
+       <a href="/projectslist" type="button" class="m-3 customButton">
+        Projects            
+      </a> 
     </div>
   </div>
+  <div class="row text-center">
+
+  </div>
+
+</div>
 </div>
 
 </template>
@@ -56,7 +60,7 @@ html, body {
 
 .mt-c {
 
-    margin-top:5rem !important;
+  margin-top:5rem !important;
 
 }
 
@@ -84,8 +88,8 @@ html, body {
 
 @media screen and (min-width: 567px) {
   .mt-c {
-     margin-top: 20rem !important;
-  }
+   margin-top: 20rem !important;
+ }
 }
 
 

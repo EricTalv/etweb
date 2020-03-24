@@ -12,7 +12,7 @@ Welcome to my page!
 This page was developed over only a couple of days.
 The website went through many iterations and design changes,
 and thanks to many environmental issues I wasn't as able to create
-the astonishing site everyone adores.
+the astonishing site I really wanted.
 
 BUT I assure the beauty lies more in the process of creation
 than the websites desing itself.
@@ -29,7 +29,7 @@ to take it on myself to make a full-fledged website myself.
 Yeah I could've really just taken any web template,
 filled it out and settled with that, though I feard
 my knowledge has fallen short so this would be a great opportunity to 
-refresh myself 
+refresh myself.
 
 ### Etweb 1-2
 
@@ -46,7 +46,7 @@ other domain-level features.
 
 Here there was some simple design work, I 
 ofcourse went with bootstrap for my css library since
-I am somewhat familiar with it 
+I am somewhat familiar with it.
 
 
 ### Etweb 3-4
@@ -54,9 +54,9 @@ I am somewhat familiar with it
 Here I found out that I also used Nuxt so I decided
 to migrate my project over there.
 
-Why, well I knew I was going to need to use a .tk domain
+Why? well I knew I was going to need to use a .tk domain
 thus I woulnd't be able to use a full fledge universal website,
-so I'd have to settle for a simple static website, a SPA (single page app)
+so I'd have to settle for a simple static website, a SPA (single page app).
 
 Nuxt was ideal since it generates all the routing 
 and views I needed, so less configuring work.
@@ -103,5 +103,5 @@ design and well here it is.
 
 ### The end 
 
-Though this site is pretty lackluster and simple..
-well i guess thats the beauty in it.
+Though this site is pretty lackluster and simple, 
+Id say its a nice starting point for something bigger and better.

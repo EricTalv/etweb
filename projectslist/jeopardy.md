@@ -10,6 +10,8 @@ This was a request by my schools Film club.
 
 The request was to create a Jeopardy type of game that they could play on air.
 
+I created this program on C# 
+
 You can see my program run on the TV in this video:
 
 [![IMAGE ALT TEXT HERE](./images/jeopardy.png)](http://www.youtube.com/watch?v=X9jK7SciFpo?t=482)
