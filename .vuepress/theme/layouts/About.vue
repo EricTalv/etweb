@@ -104,7 +104,7 @@
             <h5 class="text-center m-2">Tools</h5>
             <div class="card">
               <div class="card-body">
-                <table class="table">
+                <table class="table" style="white-space: nowrap;">
                   <thead class="">
                     <tr>
                       <th>Figma</th>

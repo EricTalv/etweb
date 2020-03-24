@@ -10,7 +10,7 @@
 			{{ $frontmatter.pagetitle }}
 		</h1>
 		<p>
-			<a :href="$frontmatter.github">Github</a>
+			<a v-if="$frontmatter.github" :href="$frontmatter.github" target="_blank">Github</a>
 		</p>
 		<section>
 			<Content />

@@ -2,7 +2,7 @@
 title: 'Scraper'
 pagetitle: 'Python Web Scraper'
 layout: Project
-image: 'https://catingtonpost.com/wp-content/uploads/2017/08/457e2d35-4fd2-40dd-83da-cde9cadccdef.gif'
+image: 'https://www.usaskypanels.com/media/catalog/product/cache/1/image/1200x600/9df78eab33525d08d6e5fb8d27136e95/m/a/main-pic_3_7.jpg'
 ---
 
 
