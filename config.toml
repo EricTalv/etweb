@@ -2,30 +2,15 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "ET | Portfolio"
-theme = "my-theme"
-
 
 [params]
 
     # You can use Markdown syntax for urls [text](//url.to/source) for
     # most longer texts.
 
-    # To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-    name = "Mr. Hugo"
-    description = "My awesome description"
+    name = "Eric Talviste"
+    description = "This is my porftolio page to show off my works!"
 
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email youself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
     email = "eric.talviste@gmail.com"
 
     # Custom assets
@@ -51,7 +36,6 @@ theme = "my-theme"
         title = "Portfolio"
 
         [params.portfolio.modal]
-            client = "Client"
             date = "Date"
             category = "Category"
             buttontext = "Close"
@@ -60,14 +44,13 @@ theme = "my-theme"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "I have a degree in junior software development and have been working on development for a solid 2 years. My portfolio includes languages such as C#, python and additionally many web-development libraries and frameworks."
+        right = "Besides software and web-development, I also love different kinds of Art-work. My art aspirations span wall to wall from designing posters, logos and adverts. To writing movie-scenes. Additionally I love creating and writing music aswell."
 
         [params.about.button]
-            text = "Download theme"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+            text = "Check out my CV here!"
+            link = "./static/EricTalvisteCV_EN.pdf"
             icon = "download"
-
 
     [params.contact]
         title = "Contact"
@@ -104,7 +87,7 @@ theme = "my-theme"
             # CSS class.
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+                link = "//github.com/EricTalv"
 
             [[params.footer.social.networks]]
                 icon = "fa-stack-overflow"

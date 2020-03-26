@@ -1,0 +1,37 @@
+{{ "<!-- Portfolio Modals -->" | safeHTML }}
+{{ range .Site.Data.projects }}
+<div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body ">
+                        <h2 class="text-center">{{ .title }}</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt="">
+                        <h3>{{ .description }}</h3>
+                        <ul class="text-center list-inline item-details">
+                            <li>{{ with $.Site.Params.portfolio.modal.github }}{{.}}{{ end }}
+                                <strong><a href="{{ .githubLink }}">Check it out on Git!</a></strong>
+                            </li>
+                            <li>{{ with $.Site.Params.portfolio.modal.date }}{{.}}{{ end }}:
+                                <strong>{{ .date }}</strong>
+                            </li>
+                            <li>{{ with $.Site.Params.portfolio.modal.category }}{{.}}{{ end }}:
+                                <strong>{{ .category }}</strong>
+                            </li>
+                        </ul>
+                        <button type="button" class="text-center btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttontext }}{{.}}{{ end }}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
