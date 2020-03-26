@@ -1,4 +1,0 @@
----
-layout: projectslist
-title: 'Projects '
----
