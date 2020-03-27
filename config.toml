@@ -49,7 +49,7 @@ title = "ET | Portfolio"
 
         [params.about.button]
             text = "Check out my CV here!"
-            link = "./static/EricTalvisteCV_EN.pdf"
+            link = "./EricTalvisteCV_EN.pdf"
             icon = "download"
 
     [params.contact]
@@ -78,7 +78,7 @@ title = "ET | Portfolio"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["Tallinn", "Harjumaa", "Estonia"]
+            address = ["Estonia", "Tallinn, Harjumaa"]
 
         [params.footer.social]
             title = "Around the web"
@@ -90,10 +90,5 @@ title = "ET | Portfolio"
                 link = "//github.com/EricTalv"
 
             [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
+                icon = "fa-linkedin"
                 link=  "//stackoverflow.com/questions/tagged/hugo"
-
-
-        [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
