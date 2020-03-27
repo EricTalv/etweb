@@ -78,7 +78,7 @@ title = "ET | Portfolio"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+            address = ["Tallinn", "Harjumaa", "Estonia"]
 
         [params.footer.social]
             title = "Around the web"
