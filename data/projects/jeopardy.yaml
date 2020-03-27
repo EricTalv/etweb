@@ -1,0 +1,36 @@
+modalID: 3
+title: Desktop Jeopardy Game
+date: 2017-2018
+img: jeopardy.png
+githubLink: "https://github.com/EricTalv/Jeopardy"
+category: Software Development
+description:
+  - subtitle: About
+  - subdescription:  >
+                      This was a request by my schools film-club.
+                      The request was to create a Jeopardy type game, where they can freely add their content and it will generate the game for them. 
+  
+  - subtitle: Technologies
+  - subdescription:  >
+                      I decided to use C# for I was familiar with it the most at the time.
+
+  - subtitle: Challenges
+  - subdescription:  >
+                      There were many things to take into account, I cut the project into two:
+
+
+                       1. The game itself
+                       2. Game creation
+
+
+                      I needed a simple method of creating jeopardy games, with a simple interface, so I decided .ini files would do the trick, basically the creation screen was just a lot of labels and input-boxes, that would later write into a .ini file, on paper it sounds simple but in C# it was quite a hassle.
+
+                      As for the game, there went a lot of calculation into making the game grid properly fit, there were also issues with font fitting, and occasionally those issues still exist.
+
+  - subtitle: Result
+  - subdescription:  >
+                      The game came out well enough for the film-clubs standards and as used multiple times on air.
+
+                      [Glimpses can be seen here](https://youtu.be/X9jK7SciFpo?t=538)
+
+                      Since I have a very ambitious mind, I wanted to add different kinds of features but due to a hectic school life at the time, I never got to them.

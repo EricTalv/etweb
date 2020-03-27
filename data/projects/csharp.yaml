@@ -1,0 +1,59 @@
+modalID: 4
+title: C# Project Pack
+date: 2016-2019
+img: csharp.png
+githubLink: "https://github.com/EricTalv"
+category: Software Development
+description:
+  - subtitle: About
+  - subdescription:  >
+                      So since I loved creating C# windows-forms apps (to an extent) I thought i'd list a couple of my more prized C# projects from my school! 
+
+  - subdescription:  >
+                      
+                      [***Main Menu***](https://github.com/EricTalv/Main-Menu-Example-1) 
+                      This is my prized possesion.
+
+
+                      Our course rarely focused on software design which frustrated me, since most of the times the UX would be immensly lackluster and dull.
+
+
+                      So I decided to create my own intuitive main menu design.
+
+
+                      The beauty doesnt inheritly lie in its colors and well the "Design" aspect, rather the beauty is in the layout and the user experience.
+
+
+                      It is very simple to choose a category and see what exactly is available in them, and additionally a description of what exactly is talked about.
+
+
+                      This allowed me to categorize many of my projects and add more meaning to them, not just throw them in an archive folder as many do.
+
+
+                      [***Hangman Game***](https://github.com/EricTalv/HangManGame)
+
+
+                      This is was a fun project.
+
+
+                      The task was to create a simple hangman game, that would read word from your given file and generate a Hangman type of game.
+
+
+                      ***[Dynamic Button Creation Environment](https://github.com/EricTalv/ButtonCreation)***
+
+
+                      One day I was extremely fed up with dynamically adding elements to the software load screen, so I decided to create my own button adding environment.
+
+
+                      This was all for myself, so I could simplify and understand how elements would be placed with different methods.
+
+
+                      *[**Picture Altering***](https://github.com/EricTalv/PictureAltering)
+
+
+                      The task was to create a program that would take an image and alter it in specific ways.
+
+
+                      I looked at many different approaches of altering images, such as converting the image into a diamond shape, circle and triangle. 
+
+

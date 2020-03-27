@@ -91,4 +91,4 @@ title = "ET | Portfolio"
 
             [[params.footer.social.networks]]
                 icon = "fa-linkedin"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
+                link=  "https://www.linkedin.com/in/erictalviste/"

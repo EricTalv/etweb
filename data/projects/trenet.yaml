@@ -1,0 +1,41 @@
+
+modalID: 2
+title: Trenet
+date: 2018-2019
+img: trenet.png
+githubLink: "https://github.com/EricTalv/trenet"
+category: Web Development
+description:
+  - subtitle: About
+  - subdescription:  >
+                      This was at my Internship and as per-request, was to re-vamp their trenet.eu website as a whole.
+
+
+                      Their website was on an old PhpMyAdmin system thus was vulnerable for security faults and also overall was just an aged webpage, they wanted a new fresh design remake of the site.
+  
+  - subtitle: Technologies
+  - subdescription:  >
+                      Since they wanted a secure site and they didn't use any blogging or constant changes to their website, we decided to use *Hugo static web-generator* for the front-end framework. 
+
+
+                      Additionally I used Adobe Photoshop to revamp their logo from an old *.gif* logo to a new and improved *.svg*
+
+
+                      They wanted an emailing widget, so I decided to create a google-forms type of script integrated to the html form.
+
+  - subtitle: Challenges
+  - subdescription:  >
+                      I decided to use a pre-made template for the site, but had to heavily modify all of the internal scaffolding to fit all of the content.
+
+
+                      There was a lot of fitting and puzzling each widget into their own place. 
+
+
+                      The emailing feature I wanted to design as to be proof of any web-scrapers to steal their email and be simple and easy to use. 
+
+
+  - subtitle: Result
+  - subdescription:  >
+                      The staff of the firm really liked the website, but the website isnt quite yet deployed due to some administrative issues on their side.
+
+

@@ -1,0 +1,31 @@
+modalID: 5
+title: Portfolio
+date: 2020
+img: portfolio.png
+githubLink: "https://github.com/EricTalv/etweb"
+category: Web Development
+description:
+  - subtitle: About
+  - subdescription:  >
+                      Here I'll address this site and how the development process led up to this point.
+
+
+                      If you wish you can read the longer, more detailed version of this readme can be found on the github page.
+
+
+                      My portfolio has gone through about 8 different iterations now and definitely has yet to see the end of itself.
+  
+  - subtitle: Technologies
+  - subdescription:  >
+                      Along the way I dabbled in *vue.js, nuxt.js, vuepress, bootstrap* and *hugo*
+
+  - subtitle: Challenges
+  - subdescription:  >
+                      I'd say I was the bigger challenge in creating this site, my ambitions lie very high thus I was blowing this sites design way out of proportion.
+
+                      Crafting a lot of the logic behind, converting .md to html files and fiddling around with bootstrap and my own design choices would take most of the time.  
+
+  - subtitle: Result
+  - subdescription:  >
+                      As of right now, I have resulted in creating 8 different iterations of this site and am still looking for different ways of making it more ridiculous.
+ 
