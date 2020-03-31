@@ -1,4 +1,8 @@
 @charset "UTF-8";
+*::selection {
+  background-color: #47C2CA;
+}
+
 body {
   overflow-x: hidden;
   color: #2c3e50;
