@@ -7,8 +7,34 @@
                 <hr class="star-primary">
             </div>
         </div>
+
+
         <div class="row no-gutters">
-            {{ range $.Site.Data.projects }}
+
+           <div class="col-lg-12 text-center">
+                <h3>{{ with .Site.Params.portfolio.subtitle_design }}{{.}}{{end}}</h3>
+                <hr class="star-primary">
+            </div>
+
+            {{ range $.Site.Data.designs }}
+            <div class="portfolio-item col-sm-6">
+                <a href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/{{ .img }}" class="img-responsive">
+                </a>
+            </div>
+            {{ end }}
+
+            <div class="col-lg-12 text-center">
+                <h3>{{ with .Site.Params.portfolio.subtitle_programs }}{{.}}{{end}}</h3>
+                <hr class="star-primary">
+            </div>
+
+            {{ range $.Site.Data.programs }}
             <div class="portfolio-item col-sm-4">
                 <a href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
@@ -16,10 +42,10 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/portfolio/{{ .img }}" class="img-responsive">
+                    <img src="img/{{ .img }}" class="img-responsive">
                 </a>
             </div>
-            {{ end }}
+            {{ end }} 
         </div>
     </div>
 </section>
