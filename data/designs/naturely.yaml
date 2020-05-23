@@ -1,10 +1,22 @@
 modalID: 8
 title: Naturely
 date: 2020
-img: designs/NaturelyDesignMAIN.png
+img: designs/naturely/NaturelyDesignMAIN.png
+carousel:
+  - designs/naturely/NaturelyDesignMAIN.png
+  - designs/naturely/Naturely1.png
+  - designs/naturely/Naturely2.png
+  - designs/naturely/Naturely3.png
 githubLink: 
 category: App Design
 description:
   - subtitle: About
   - subdescription:  >
-                      Naturely
+                      Naturely is another one of my own projects that I thought of.
+
+                      The idea here was to create a simple nature-like 
+                      mobile app.
+
+                      Here I mostly concentrated on how to layout one screen
+                      of the bigger project. 
+

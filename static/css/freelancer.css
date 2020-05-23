@@ -55,10 +55,10 @@ hr.star-light:after {
   background-color: #42597B;
 }
 hr.star-primary {
-  border-color: #2c3e50;
+  border-color: #42597B;
 }
 hr.star-primary:after {
-  color: #2c3e50;
+  color: #42597B;
   background-color: #fff;
 }
 
@@ -69,9 +69,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   color: #fff;
-  background-image: url('/img/background.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
+  background: #42597B;
 }
 header .container {
   padding-top: 100px;

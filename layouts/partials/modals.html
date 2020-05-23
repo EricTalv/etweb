@@ -15,32 +15,32 @@
                         <h2 class="text-center">{{ .title }}</h2>
                         <hr class="star-primary">
                         <img src="img/{{ .img }}" class="img-responsive img-centered" alt="">
-                        
-                        {{ range .description }}
+            
+                  {{ range .description }}
 
-                        <h1> {{ .subtitle }} </h1>
-                        <p> {{ .subdescription | markdownify}} </p>
+                  <h1> {{ .subtitle }} </h1>
+                  <p> {{ .subdescription | markdownify}} </p>
 
-                        {{ end }}
+                  {{ end }}
 
 
-                        <ul class="text-center list-inline item-details">
-                            <li>{{ with $.Site.Params.portfolio.modal.github }}{{.}}{{ end }}
-                                <strong><a href="{{ .githubLink }}" target="_blank">Check it out on Git!</a></strong>
-                            </li>
-                            <li>{{ with $.Site.Params.portfolio.modal.date }}{{.}}{{ end }}:
-                                <strong>{{ .date }}</strong>
-                            </li>
-                            <li>{{ with $.Site.Params.portfolio.modal.category }}{{.}}{{ end }}:
-                                <strong>{{ .category }}</strong>
-                            </li>
-                        </ul>
-                        <button type="button" class="text-center btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttontext }}{{.}}{{ end }}</button>
-                    </div>
-                </div>
+                  <ul class="text-center list-inline item-details">
+                    <li>{{ with $.Site.Params.portfolio.modal.github }}{{.}}{{ end }}
+                        <strong><a href="{{ .githubLink }}" target="_blank">Check it out on Git!</a></strong>
+                    </li>
+                    <li>{{ with $.Site.Params.portfolio.modal.date }}{{.}}{{ end }}:
+                        <strong>{{ .date }}</strong>
+                    </li>
+                    <li>{{ with $.Site.Params.portfolio.modal.category }}{{.}}{{ end }}:
+                        <strong>{{ .category }}</strong>
+                    </li>
+                </ul>
+                <button type="button" class="text-center btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttontext }}{{.}}{{ end }}</button>
             </div>
         </div>
     </div>
+</div>
+</div>
 </div>
 {{ end }}
 
@@ -59,10 +59,25 @@
                     <div class="modal-body ">
                         <h2 class="text-center">{{ .title }}</h2>
                         <hr class="star-primary">
-                        <img src="img/{{ .img }}" class="img-responsive img-centered" alt="">
 
                         
+                        
+                        {{ "<!-- Carousel -->" | safeHTML }}
 
+                        <div class="your-class">
+                            {{ range .carousel }}
+                            <div><img class="img-responsive" style="margin: auto" src="img/{{ . }}" alt=""></div>
+                            {{ end }}   
+                        </div>
+                        
+
+                        <style>
+
+
+                        .slick-prev:before, .slick-next:before {
+                          color: black;
+                      }
+                  </style>
 
                         {{ range .description }}
 

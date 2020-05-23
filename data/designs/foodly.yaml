@@ -1,10 +1,21 @@
 modalID: 9
 title: Foodly
 date: 2020
-img: designs/FoodlyMain.png
+img: designs/foodly/FoodlyMain.png
+carousel:
+  - designs/foodly/FoodlyMain.png
+  - designs/foodly/custom1.png
+  - designs/foodly/custom2.png
+  - designs/foodly/custom3.png
+  - designs/foodly/custom4.png
 githubLink: 
 category: Web Design
 description:
   - subtitle: About
   - subdescription:  >
-                      Fooodly
+                      This is a Design project I thought of myself.
+
+                      The idea was to have a design for a hobby-food service,
+                      where hobby home cookers can gather on and find the best recipes.
+
+                      This project is mostly concentrated toward design, color and layout. 

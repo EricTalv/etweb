@@ -1,7 +1,9 @@
 # Site settings
-baseurl = "/"
+baseurl = "4154ea2c.ngrok.io"
 languageCode = "en-us"
-title = "ET | Portfolio"
+title = "Eric Talviste | Portfolio"
+
+googleAnalytics = "UA-166928853-2"
 
 [params]
 
@@ -9,13 +11,13 @@ title = "ET | Portfolio"
     # most longer texts.
 
     name = "Eric Talviste"
-    description = "This is my porftolio page to show off my works!"
+    description = "This is Eric Talviste's Portfolio website"
 
     email = "eric.talviste@gmail.com"
 
     # Custom assets
 	custom_css = []
-	custom_js  = []
+	custom_js  = [ "js/myJS.js" ]
 
     [params.navigation]
         brand = "ET | Portfolio"
@@ -46,8 +48,8 @@ title = "ET | Portfolio"
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "I have a degree in junior software development and have been working on development for a solid 2 years. My portfolio includes languages such as C#, python and additionally many web-development libraries and frameworks."
-        right = "Besides software and web-development, I also love different kinds of Art-work. My art aspirations span wall to wall from designing posters, logos and adverts. To writing movie-scenes. Additionally I love creating and writing music aswell."
+        left = "Hi there! My names Eric, I am what you would call a Junior Artsy/IT-tech person, I havent quite settled with one or the other so I am kinda dabbeling in everything! Degree wise so far I have studied software development for 3 years and dabbled in the programming world on my own on the side."
+        right = "I wouldn't consider myself an avarage text-book-study-type-person, rather I find my ambitions lie many steps ahead of me, this causes alot of frustration BUT enables me to stay curious and keep on finding new and exciting challenges. So if you are an Employer, A curious pete, an Ambitous teen but have an Idea worth a while, then write me a letter and I'll surely be interested! c: "
 
         [params.about.button]
             text = "Check out my CV here!"
@@ -82,6 +84,9 @@ title = "ET | Portfolio"
             # Postal address (add as many lines as necessary)
             address = ["Estonia", "Tallinn, Harjumaa"]
 
+        [params.footer.email]
+            title = "Or contact me straight"
+
         [params.footer.social]
             title = "Around the web"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
@@ -94,3 +99,11 @@ title = "ET | Portfolio"
             [[params.footer.social.networks]]
                 icon = "fa-linkedin"
                 link=  "https://www.linkedin.com/in/erictalviste/"
+
+            [[params.footer.social.networks]]
+                icon = "fa-dribbble"
+                link=  "https://dribbble.com/EricTalv"
+
+        	[[params.footer.social.networks]]
+                icon = "fal fa-dove"
+                link=  "http://etxp.tk"

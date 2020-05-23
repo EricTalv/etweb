@@ -6,6 +6,10 @@ $footerColor: #233140
 $aboutBtn: #388398
 $caption: rgba(66, 89, 123, 0.5)
 
+$star-color1: #fff
+$star-color2: #42597B
+$star-color3: #42597B
+
 // #18bc9c
 // sec  #2c3e50
 // th #1a242f
@@ -57,18 +61,18 @@ hr
     font-size: 2em
 
   &.star-light
-    border-color: #fff
+    border-color: $star-color1
 
     &:after
-      color: #fff
-      background-color: $primaryColor
+      color: $star-color1
+      background-color: $star-color2
 
   &.star-primary
-    border-color: $secondaryColor
+    border-color: $star-color3
 
     &:after
-      color: $secondaryColor
-      background-color: #fff
+      color: $star-color3
+      background-color: $star-color1
 
 .img-centered
   margin: 0 auto

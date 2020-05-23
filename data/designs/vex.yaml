@@ -1,10 +1,19 @@
 modalID: 7
 title: Vex Designs
 date: 2020
-img: designs/VexMAIN.png
+img: designs/vex/VexMAIN.png
+carousel:
+  - designs/vex/VexMAIN.png
+  - designs/vex/vex-banner.png
+  - designs/vex/vex-banner2.png
+  - designs/vex/vex-logo.png
+  - designs/vex/vex-logo2.png
 githubLink: 
-category: Logo Design
+category: Brand Design
 description:
   - subtitle: About
   - subdescription:  >
-                      vex stuff
+                      This is my own up-coming e-commerce store Idea I am working on.
+
+                      I've been testing and mixing various layouts
+                      and typography styles with this brand. 

@@ -55,10 +55,10 @@ hr.star-light:after {
   background-color: #42597B;
 }
 hr.star-primary {
-  border-color: #2c3e50;
+  border-color: #42597B;
 }
 hr.star-primary:after {
-  color: #2c3e50;
+  color: #42597B;
   background-color: #fff;
 }
 

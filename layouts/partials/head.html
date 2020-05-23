@@ -5,6 +5,11 @@
 <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
 
 <title>{{ .Site.Title }}</title>
+
+
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 {{ "<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->" | safeHTML }}
 <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet">
 {{ "<!-- Custom CSS -->" | safeHTML }}
@@ -17,6 +22,7 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+{{ template "_internal/google_analytics.html" . }}
 
 {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
 {{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}

@@ -1,5 +1,12 @@
+
+
 {{ "<!-- jQuery -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/jquery-1.11.js"></script>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script src="{{ .Site.BaseURL }}js/bootstrap.js"></script>
 {{ "<!-- Plugin JavaScript -->" | safeHTML }}
@@ -15,3 +22,4 @@
 {{ range .Site.Params.custom_js }}
 <script src="{{ . | absURL }}"></script>
 {{ end }}
+

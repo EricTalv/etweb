@@ -1,10 +1,27 @@
 modalID: 10
 title: Elkesensor
 date: 2020
-img: designs/ElkeMain.png
+img: designs/elke/ElkeMain.png
+carousel:
+  - designs/elke/ElkeMain.png
+  - designs/elke/About.png
+  - designs/elke/Partners.png
+  - designs/elke/Products.png
+  - designs/elke/Old1.png
+  - designs/elke/Old2.png
 githubLink: 
 category: Web Design
 description:
   - subtitle: About
   - subdescription:  >
-                     Elke
+                     
+                     This client wanted a very simplre vevamp to their website.
+                     Previously they had an older outdated version, thus 
+                     they wanted a little more modern type website.
+
+
+                     They wanted to have the integrity of the website 
+                     to stay the same so I decided to just go with a simple 
+                     minimal design.
+
+                     At the end the site came out pretty good.

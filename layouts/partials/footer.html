@@ -3,25 +3,31 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-6">
+                <div class="footer-col col-md-4">
                     <h3>{{ with .Site.Params.footer.location.title }}{{.}}{{ end }}</h3>
 
                     {{ with .Site.Params.footer.location.address }}
-                        <p>
-                            {{ range $i, $e := $.Site.Params.footer.location.address }}
-                                {{ if $i }}<br>{{ end }}
-                                {{ $e }}
-                            {{ end }}
-                        </p>
+                    <p>
+                        {{ range $i, $e := $.Site.Params.footer.location.address }}
+                        {{ if $i }}<br>{{ end }}
+                        {{ $e }}
+                        {{ end }}
+                    </p>
                     {{ end }}
                 </div>
-                <div class="footer-col col-md-6">
+
+                <div class="footer-col col-md-4">
+                    <h3>{{ with .Site.Params.footer.email.title }}{{.}}{{ end }}</h3>
+
+                    <p> {{ .Site.Params.email }}</p>
+                </div>
+                <div class="footer-col col-md-4">
                     <h3>{{ with .Site.Params.footer.social.title }}{{.}}{{ end }}</h3>
                     <ul class="list-inline">
                         {{ range .Site.Params.footer.social.networks }}
-                            <li>
-                                <a href="{{ .link }}" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
-                            </li>
+                        <li>
+                            <a href="{{ .link }}" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
+                        </li>
                         {{ end }}
                     </ul>
                 </div>
